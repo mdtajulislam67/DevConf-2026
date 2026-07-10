@@ -272,3 +272,79 @@ nav {
 
 
 /*Pricing Section End*/
+
+/*Footer Area Start*/
+
+footer {
+    background-color: #0D1B2A;
+    padding: 50px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links h3{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 24;
+    color:#fff;
+    justify-content: right;
+    margin: 0px 90px 10px 0px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.social-icon i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+footer hr{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+}
+
+
+
+.footer-buttom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.footer-buttom-left p {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-buttom-right ul {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+
+}
+
+.footer-buttom-right ul li {
+    color: rgba(255, 255, 255, 0.4);
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/*Footer Area End*/
