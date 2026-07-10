@@ -273,6 +273,132 @@ nav {
 
 /*Pricing Section End*/
 
+
+/*Using Ai Section Start*/
+
+/*Hackathon Section*/
+
+.hackathon{
+    background:#ffffff;
+    font-family:'Inter',sans-serif;
+}
+
+.hackathon-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.hackathon-title h2{
+    font-size:44px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.hackathon-title p{
+    max-width:700px;
+    margin:auto;
+    color:#6b7280;
+    font-size:17px;
+    line-height:1.7;
+}
+
+.hackathon-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    margin-bottom:60px;
+}
+
+.hackathon-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:35px 25px;
+}
+
+.icon img{
+    width: 50px;
+    margin-bottom:20px;
+}
+
+.hackathon-card h3{
+    margin-bottom:12px;
+    color:#111827;
+    font-size:22px;
+}
+
+.hackathon-card p{
+    color:#6b7280;
+    line-height:1.7;
+    font-size:15px;
+}
+
+.hackathon-bottom{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.hackathon-info,
+.hackathon-register{
+    flex:1;
+    min-width:300px;
+    border-radius:12px;
+    padding:40px;
+}
+
+.hackathon-info{
+    background:#f8fafc;
+    border:1px solid #e5e7eb;
+}
+
+.hackathon-info h3{
+    margin-bottom:20px;
+    font-size:28px;
+    color:#111827;
+}
+
+.hackathon-info ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.hackathon-info li{
+    margin-bottom:18px;
+    color:#374151;
+    font-size:16px;
+}
+
+.hackathon-register{
+    background:#1d4ed8;
+    color:#ffffff;
+}
+
+.hackathon-register h3{
+    font-size:30px;
+    margin-bottom:18px;
+}
+
+.hackathon-register p{
+    line-height:1.8;
+    margin-bottom:30px;
+    color:#dbeafe;
+}
+
+.hackathon-btn{
+    background:#ffffff;
+    color:#1d4ed8;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+
+/*Using Ai Section End*/
+
+
 /*Footer Area Start*/
 
 footer {
@@ -287,28 +413,28 @@ footer {
     align-items: center;
 }
 
-.social-links h3{
+.social-links h3 {
     display: flex;
     font-family: "Inter", sans-serif;
     font-size: 24;
-    color:#fff;
+    color: #fff;
     justify-content: right;
     margin: 0px 90px 10px 0px;
 }
 
-.social-icon{
+.social-icon {
     display: flex;
     justify-content: right;
     gap: 20px;
 }
 
-.social-icon i{
+.social-icon i {
     color: #fff;
     font-size: 24px;
     cursor: pointer;
 }
 
-footer hr{
+footer hr {
     border: none;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin: 20px 0;
