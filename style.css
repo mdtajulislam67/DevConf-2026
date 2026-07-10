@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Nav Start*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #575757;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.register-button {
+    background-color: #1D4ED8;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Nav End*/
+
+
+/*Hero Area Start*/
+
+
+.hero-area {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent), url('./images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: -3.2px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.hero-content .register-button {
+    margin-top: 200px;
+}
+
+/*Hero Area end*/
